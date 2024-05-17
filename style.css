@@ -25,11 +25,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* min-height: 100vh;
-  /* background-color: red; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center;  */
+  
 }
 .wrapper .logo img {
   max-width: 40%;
@@ -86,6 +82,10 @@ body {
   }
 }
 @media (max-width: 767px) {
+
+  .wrapper input {
+padding:0;
+}
   .wrapper .otp-input input {
     width: 14%;
     height: 40px;
@@ -93,8 +93,8 @@ body {
 }
 @media (max-width: 330px) {
   .wrapper .otp-input input {
-    width: 8%;
+    width: 12%;
     height: 40px;
-    background-color: transparent;
+    
   }
 }
